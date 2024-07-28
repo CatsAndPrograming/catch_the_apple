@@ -6,6 +6,7 @@ loading.style.position='absolute';
 loading.innerHTML='Loading...';
 document.body.appendChild(loading);
 
+screen.orientation.lock('landscape');
 
 function import_script(src, id){
     let element = document.createElement("script");
